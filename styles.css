@@ -53,20 +53,6 @@
   cursor: pointer;
 }
 
-.btn1 {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  color: red;
-  background-color: var(--primary-color);
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-
-
 .btn:hover {
   background-color: var(--primary-color-dark);
 }
@@ -77,7 +63,7 @@ img {
 }
 
 .logo img {
-  max-width: 120px;
+  max-width: 80px;
 }
 
 a {
@@ -213,12 +199,11 @@ nav {
 }
 
 .service {
-  background-color: white;
+  background-color: var(--extra-light);
 }
 
 .service__container {
   text-align: center;
-  margin-left:300px;
 }
 
 .service__grid {
@@ -246,10 +231,9 @@ nav {
   color: var(--text-light);
 }
 
-
 .customisation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("assets/8.jpg");
+    url("assets/customisation.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -643,7 +627,6 @@ nav {
 }
 
 
-
 /*
 flip card
 */
@@ -673,8 +656,4 @@ flip card
 
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
-}
-
-.map {
-    width: 100%;
 }
